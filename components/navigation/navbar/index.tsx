@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import Theme from "@/components/navigation/navbar/Theme";
 
 const Navbar = () => {
   return (
@@ -22,7 +23,7 @@ const Navbar = () => {
       </Link>
       <p>Global Search</p>
       <div className={'flex-between gap-5'}>
-        Theme
+        <Theme/>
       </div>
     </nav>
   );
