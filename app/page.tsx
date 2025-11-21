@@ -1,6 +1,7 @@
 import React from "react";
 
 const Page = () => {
+  console.log("Page rendered");
   return (
     <>
       <h1 className={"h1-bold"}>Welcome to the Ultimate Next.js course!</h1>
