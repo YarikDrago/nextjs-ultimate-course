@@ -3,7 +3,7 @@ import Navbar from "@/components/navigation/navbar";
 
 const AuthLayout = ({ children }: { children: ReactNode }) => {
   return (
-    <main>
+    <main className={"flex-center min-h-screen items-center justify-center bg-auth-light dark:bg-auth-dark bg-cover bg-center bg-no-repeat px-4 py-10"}>
       {children}
     </main>
   );
